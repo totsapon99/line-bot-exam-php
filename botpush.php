@@ -6,9 +6,9 @@ require "vendor/autoload.php";
 
 $access_token = 'gBXyGT4YhPlm55PdXaB4FKfXgh65UxQgctQd6JQt60PC/vkQtcaNFObBI2j2rk/CJS2ttXu9Q3awUaGqx4Xy8lrShTFfEbJcVMNnl8NQqEM/6PLexDc9aHyoq4wOTqMVUACBerfjrlyK7n4Ar7XnEAdB04t89/1O/w1cDnyilFU=';
 
-$channelSecret = '75c03f392f6e53d662d6f5a8db9e421f';
+$channelSecret = '11902a4cc1d234a3b4ba0420921ec266';
 
-$pushID = 'U7ef7a449f2a5c2057eacfc02ba2eb286';
+$pushID = 'U536072c75417220a443fe0a9e07e6cd3';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
